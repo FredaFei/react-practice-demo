@@ -1,21 +1,5 @@
-import React from 'react'
-import ReactDom from 'react-dom'
-function UserGreeting(props){
-    return <h1>Welcome back!</h1>;
-}
-function GuestGreeting(props){
-    return <h1>Please sign up.</h1>;
-}
+// require('./components/app')
 
-function Geeting(props){
-    const isLogin = props.isLogin
-    if (isLogin) {
-        return <UserGreeting />
-    }
-    return <GuestGreeting />
-}
+import './components/app' //es6
 
-ReactDom.render( 
-    <Geeting isLogin={false}/ > ,
-    document.getElementById('app')
-);
+import './styles/main.styl'
