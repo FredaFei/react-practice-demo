@@ -19,15 +19,6 @@
 
 ```
 
-## 使用方式
-
- ES6/7 :  修改src/ES6/来测试你的ES6/7语法即可
-
- React :  修改src/entry.js来学习react代码
-
- Redux :  修改src/redux/来学习redux代码
-
- async/generator : 如果你想用更高级的类似async/Promise等等语法，请修改webpack.config.js
 
 
 
